@@ -3,7 +3,7 @@
 This project is about building AI that understands the "hidden shape" of data rather than just seeing it as a flat collection of pixels.
 
 1. "Compressing" the Problem
-Instead of teaching the AI to generate images pixel-by-pixel (which is slow and complex), we first use a VAE (Variational AutoEncoder) to shrink the images into a simpler, "latent" mathematical space. This is like turning a high-resolution map into a simple set of coordinates.
+Instead of teaching the AI to generate images pixel-by-pixel (which is slow and complex), we first use a VQ-VAE (Vector Quantized Variational AutoEncoder) to shrink the images into a simpler, "latent" mathematical space. This is like turning a high-resolution map into a simple set of coordinates.
 
 2. Deep Learning on the "Shapes" (Manifolds)
 Data often has a specific structure—for example, a set of hand-written "0"s all share a circular topology. Traditional models sometimes lose this structure. This project focuses on Manifold-Awareness, meaning the AI is specifically trained to respect the underlying geometry and "topology" of the data it's learning.
