@@ -2,8 +2,6 @@
 
 This project is about building AI that understands the "hidden shape" of data rather than just seeing it as a flat collection of pixels.
 
-what we are trying to do:
-
 1. "Compressing" the Problem
 Instead of teaching the AI to generate images pixel-by-pixel (which is slow and complex), we first use a VAE (Variational AutoEncoder) to shrink the images into a simpler, "latent" mathematical space. This is like turning a high-resolution map into a simple set of coordinates.
 
