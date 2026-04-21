@@ -9,7 +9,7 @@ Instead of teaching the AI to generate images pixel-by-pixel (which is slow and 
 Data often has a specific structure—for example, a set of hand-written "0"s all share a circular topology. Traditional models sometimes lose this structure. This project focuses on Manifold-Awareness, meaning the AI is specifically trained to respect the underlying geometry and "topology" of the data it's learning.
 
 3. The Workflow
-Baseline: We build a standard "pixel-space" model to see how it performs normally.
+Baseline: built a standard "pixel-space" model to see how it performs normally.
 Latent Diffusion: We build the main model that works in the compressed space we created.
 Topology Check: We use Persistent Homology to prove that the AI-generated samples aren't just pretty pictures, but actually "connect" and "fold" the same way real data does.
 
